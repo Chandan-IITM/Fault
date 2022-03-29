@@ -232,7 +232,7 @@ print('Number of options after last round fault for 16 bits of key is', len(K_op
 #We have stored that possible options of the 16 bits part of the key in the array K_option.
 #In this part we have filtered this 256 possible options by inducing nibble base fault at the state at the 
 #begining of the second last round. In the following, 'for loop in l' indicates the nibble position 4*l+16*aa,  
-#(aa depends on the floor(pos[0]/4)) where we induce the fault. 
+#(aa depends on floor(pos[0]/4)) where we induce the fault. 
 
 
 aa = floor(pos[0]/4)
